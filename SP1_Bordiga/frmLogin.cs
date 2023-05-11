@@ -55,7 +55,7 @@ namespace SP1_Bordiga
             {
                 MessageBox.Show("Datos incorrectos. Acceso Denegado.");
                 intentos++;
-                if (intentos == 3)
+                if (intentos == 3) 
                 {
                     this.Close();
                 }
