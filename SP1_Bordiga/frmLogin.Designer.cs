@@ -157,7 +157,7 @@ namespace SP1_Bordiga
 
         private void cmdCancelar_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            this.Close();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
