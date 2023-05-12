@@ -75,6 +75,10 @@ namespace SP1_Bordiga
             this.Close();
         }
 
+        private void lstModulo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }
 

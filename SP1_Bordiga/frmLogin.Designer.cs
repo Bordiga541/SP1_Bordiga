@@ -130,6 +130,7 @@ namespace SP1_Bordiga
             this.lstModulo.Name = "lstModulo";
             this.lstModulo.Size = new System.Drawing.Size(136, 24);
             this.lstModulo.TabIndex = 3;
+            this.lstModulo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lstModulo_KeyPress);
             // 
             // frmLogin
             // 
